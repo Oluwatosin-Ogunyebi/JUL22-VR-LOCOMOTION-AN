@@ -236,6 +236,25 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &128173924 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100002, guid: ff0676c8d91f84f49b766d604828e420, type: 3}
+  m_PrefabInstance: {fileID: 636626696}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &128173926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 128173924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8cfb2d08b4b89a489c2454c8104a186, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  handAnimator: {fileID: 0}
+  gripButton: {fileID: 187161793506945269, guid: c348712bda248c246b8c49b3db54643f, type: 3}
 --- !u!1 &204815566
 GameObject:
   m_ObjectHideFlags: 0
@@ -311,15 +330,15 @@ MonoBehaviour:
     m_RotationOrder: 4
   m_ValidColorGradient:
     serializedVersion: 2
-    key0: {r: 1, g: 1, b: 1, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
+    key0: {r: 0.9245283, g: 0.066287, b: 0.18615706, a: 1}
+    key1: {r: 0.2531635, g: 0.990566, b: 0, a: 1}
     key2: {r: 0, g: 0, b: 0, a: 0}
     key3: {r: 0, g: 0, b: 0, a: 0}
     key4: {r: 0, g: 0, b: 0, a: 0}
     key5: {r: 0, g: 0, b: 0, a: 0}
     key6: {r: 0, g: 0, b: 0, a: 0}
     key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 0
+    ctime0: 8815
     ctime1: 65535
     ctime2: 0
     ctime3: 0
@@ -335,7 +354,7 @@ MonoBehaviour:
     atime5: 0
     atime6: 0
     atime7: 0
-    m_Mode: 0
+    m_Mode: 1
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
   m_InvalidColorGradient:
@@ -487,7 +506,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_InteractionLayers:
-    m_Bits: 4294967293
+    m_Bits: 4294967294
   m_AttachTransform: {fileID: 0}
   m_KeepSelectedTargetValid: 1
   m_StartingSelectedInteractable: {fileID: 0}
@@ -549,7 +568,7 @@ MonoBehaviour:
   m_PlayHapticsOnHoverCanceled: 0
   m_HapticHoverCancelIntensity: 0
   m_HapticHoverCancelDuration: 0
-  m_LineType: 0
+  m_LineType: 1
   m_BlendVisualLinePoints: 1
   m_MaxRaycastDistance: 30
   m_RayOriginTransform: {fileID: 0}
@@ -562,7 +581,7 @@ MonoBehaviour:
   m_EndPointHeight: -10
   m_ControlPointDistance: 10
   m_ControlPointHeight: 5
-  m_SampleFrequency: 20
+  m_SampleFrequency: 40
   m_HitDetectionType: 0
   m_SphereCastRadius: 0.1
   m_RaycastMask:
@@ -983,8 +1002,8 @@ MonoBehaviour:
   m_EnableInputActions: 1
   m_ModelPrefab: {fileID: 0}
   m_ModelParent: {fileID: 0}
-  m_Model: {fileID: 1309704302}
-  m_AnimateModel: 1
+  m_Model: {fileID: 0}
+  m_AnimateModel: 0
   m_ModelSelectTransition: onSelect
   m_ModelDeSelectTransition: onDeselect
   m_PositionAction:
@@ -1676,7 +1695,7 @@ PrefabInstance:
     - target: {fileID: 9500000, guid: ff0676c8d91f84f49b766d604828e420, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: f86bc9f699d9a554f84c6253f647e35e, type: 2}
+      objectReference: {fileID: 9100000, guid: c136f056aca4692478c7fc4f8f46d41e, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ff0676c8d91f84f49b766d604828e420, type: 3}
 --- !u!1 &723212003
@@ -2102,7 +2121,7 @@ MonoBehaviour:
   m_ValidColorGradient:
     serializedVersion: 2
     key0: {r: 1, g: 1, b: 1, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
+    key1: {r: 0.2531635, g: 0.990566, b: 0, a: 1}
     key2: {r: 0, g: 0, b: 0, a: 0}
     key3: {r: 0, g: 0, b: 0, a: 0}
     key4: {r: 0, g: 0, b: 0, a: 0}
@@ -2564,6 +2583,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1249884314 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100002, guid: ff0676c8d91f84f49b766d604828e420, type: 3}
+  m_PrefabInstance: {fileID: 1761561628}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1249884315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1249884314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8cfb2d08b4b89a489c2454c8104a186, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  handAnimator: {fileID: 0}
+  gripButton: {fileID: -6131295136447488360, guid: c348712bda248c246b8c49b3db54643f, type: 3}
 --- !u!1 &1283921459
 GameObject:
   m_ObjectHideFlags: 0
@@ -2846,7 +2884,7 @@ PrefabInstance:
     - target: {fileID: 9500000, guid: ff0676c8d91f84f49b766d604828e420, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: f86bc9f699d9a554f84c6253f647e35e, type: 2}
+      objectReference: {fileID: 9100000, guid: c136f056aca4692478c7fc4f8f46d41e, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ff0676c8d91f84f49b766d604828e420, type: 3}
 --- !u!1 &1889416950
@@ -3198,8 +3236,8 @@ MonoBehaviour:
   m_EnableInputActions: 1
   m_ModelPrefab: {fileID: 0}
   m_ModelParent: {fileID: 0}
-  m_Model: {fileID: 2044058365}
-  m_AnimateModel: 1
+  m_Model: {fileID: 0}
+  m_AnimateModel: 0
   m_ModelSelectTransition: onSelect
   m_ModelDeSelectTransition: onDeselect
   m_PositionAction:
@@ -3402,10 +3440,34 @@ MonoBehaviour:
       m_Calls: []
   m_HoverEntered:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2126333913}
+        m_TargetAssemblyTypeName: UnityEngine.Renderer, UnityEngine
+        m_MethodName: set_material
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 2100000, guid: d674a8fcbc58feb4294008130e3eb5e6, type: 2}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_HoverExited:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2126333913}
+        m_TargetAssemblyTypeName: UnityEngine.Renderer, UnityEngine
+        m_MethodName: set_material
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 2100000, guid: 138478e17a47775439dc644e172f8e84, type: 2}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_FirstSelectEntered:
     m_PersistentCalls:
       m_Calls: []
