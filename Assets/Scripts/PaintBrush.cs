@@ -45,6 +45,8 @@ public class PaintBrush : MonoBehaviour
             _tempPaint.transform.SetParent(null);
             _tempPaint = null;
         }
+
+        objectsToArrange.RemoveAt(2);
     }
 
     private void OnTriggerEnter(Collider other)
